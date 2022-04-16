@@ -8,16 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		C67AA313280B0F5C00BC4AC8 /* apiCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67AA312280B0F5C00BC4AC8 /* apiCharacter.swift */; };
+		C67AA317280B1AF700BC4AC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67AA316280B1AF700BC4AC8 /* AppDelegate.swift */; };
+		C67AA319280B1B0100BC4AC8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67AA318280B1B0100BC4AC8 /* SceneDelegate.swift */; };
 		C699B92B280ADD8700AF7329 /* CartoonTesting.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C699B929280ADD8700AF7329 /* CartoonTesting.xcdatamodeld */; };
 		C699B92D280ADD8A00AF7329 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C699B92C280ADD8A00AF7329 /* Assets.xcassets */; };
 		C699B930280ADD8A00AF7329 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C699B92E280ADD8A00AF7329 /* LaunchScreen.storyboard */; };
-		C699B941280ADDA700AF7329 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C699B938280ADDA600AF7329 /* AppDelegate.swift */; };
 		C699B942280ADDA700AF7329 /* TwoCartoonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C699B939280ADDA600AF7329 /* TwoCartoonView.swift */; };
 		C699B943280ADDA700AF7329 /* apiTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C699B93A280ADDA700AF7329 /* apiTest.swift */; };
 		C699B944280ADDA700AF7329 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C699B93B280ADDA700AF7329 /* Main.storyboard */; };
 		C699B945280ADDA700AF7329 /* OneCartoonTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C699B93C280ADDA700AF7329 /* OneCartoonTableView.swift */; };
 		C699B946280ADDA700AF7329 /* apiCartoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = C699B93D280ADDA700AF7329 /* apiCartoon.swift */; };
-		C699B947280ADDA700AF7329 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C699B93E280ADDA700AF7329 /* SceneDelegate.swift */; };
 		C699B948280ADDA700AF7329 /* CharacterImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C699B93F280ADDA700AF7329 /* CharacterImage.swift */; };
 		C699B949280ADDA700AF7329 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C699B940280ADDA700AF7329 /* TableViewCell.swift */; };
 		C699B94C280ADE1100AF7329 /* ApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C699B94A280ADE1100AF7329 /* ApiRequest.swift */; };
@@ -26,19 +26,19 @@
 
 /* Begin PBXFileReference section */
 		C67AA312280B0F5C00BC4AC8 /* apiCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apiCharacter.swift; sourceTree = "<group>"; };
+		C67AA316280B1AF700BC4AC8 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../../../../Downloads/iOSPlayer-main/CartoonTest/CartoonTest/AppDelegate.swift"; sourceTree = "<group>"; };
+		C67AA318280B1B0100BC4AC8 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = "../../../../Downloads/iOSPlayer-main/CartoonTest/CartoonTest/SceneDelegate.swift"; sourceTree = "<group>"; };
 		C699B91D280ADD8700AF7329 /* CartoonTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CartoonTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C699B92A280ADD8700AF7329 /* CartoonTesting.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CartoonTesting.xcdatamodel; sourceTree = "<group>"; };
 		C699B92C280ADD8A00AF7329 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C699B92F280ADD8A00AF7329 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C699B931280ADD8A00AF7329 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C699B937280ADDA600AF7329 /* CartoonTesting-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CartoonTesting-Bridging-Header.h"; sourceTree = "<group>"; };
-		C699B938280ADDA600AF7329 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../CartoonTest/CartoonTest/AppDelegate.swift; sourceTree = "<group>"; };
 		C699B939280ADDA600AF7329 /* TwoCartoonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoCartoonView.swift; sourceTree = "<group>"; };
 		C699B93A280ADDA700AF7329 /* apiTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = apiTest.swift; sourceTree = "<group>"; };
 		C699B93B280ADDA700AF7329 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		C699B93C280ADDA700AF7329 /* OneCartoonTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneCartoonTableView.swift; sourceTree = "<group>"; };
 		C699B93D280ADDA700AF7329 /* apiCartoon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = apiCartoon.swift; sourceTree = "<group>"; };
-		C699B93E280ADDA700AF7329 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = ../../CartoonTest/CartoonTest/SceneDelegate.swift; sourceTree = "<group>"; };
 		C699B93F280ADDA700AF7329 /* CharacterImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterImage.swift; sourceTree = "<group>"; };
 		C699B940280ADDA700AF7329 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		C699B94A280ADE1100AF7329 /* ApiRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiRequest.swift; sourceTree = "<group>"; };
@@ -103,9 +103,9 @@
 				C67AA314280B167700BC4AC8 /* Api */,
 				C699B93F280ADDA700AF7329 /* CharacterImage.swift */,
 				C699B940280ADDA700AF7329 /* TableViewCell.swift */,
+				C67AA318280B1B0100BC4AC8 /* SceneDelegate.swift */,
+				C67AA316280B1AF700BC4AC8 /* AppDelegate.swift */,
 				C699B931280ADD8A00AF7329 /* Info.plist */,
-				C699B93E280ADDA700AF7329 /* SceneDelegate.swift */,
-				C699B938280ADDA600AF7329 /* AppDelegate.swift */,
 				C699B929280ADD8700AF7329 /* CartoonTesting.xcdatamodeld */,
 				C699B937280ADDA600AF7329 /* CartoonTesting-Bridging-Header.h */,
 			);
@@ -184,14 +184,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C699B941280ADDA700AF7329 /* AppDelegate.swift in Sources */,
-				C699B947280ADDA700AF7329 /* SceneDelegate.swift in Sources */,
+				C67AA319280B1B0100BC4AC8 /* SceneDelegate.swift in Sources */,
 				C699B92B280ADD8700AF7329 /* CartoonTesting.xcdatamodeld in Sources */,
 				C699B949280ADDA700AF7329 /* TableViewCell.swift in Sources */,
 				C699B94C280ADE1100AF7329 /* ApiRequest.swift in Sources */,
 				C699B943280ADDA700AF7329 /* apiTest.swift in Sources */,
 				C699B946280ADDA700AF7329 /* apiCartoon.swift in Sources */,
 				C699B94D280ADE1100AF7329 /* ApiData.swift in Sources */,
+				C67AA317280B1AF700BC4AC8 /* AppDelegate.swift in Sources */,
 				C67AA313280B0F5C00BC4AC8 /* apiCharacter.swift in Sources */,
 				C699B945280ADDA700AF7329 /* OneCartoonTableView.swift in Sources */,
 				C699B942280ADDA700AF7329 /* TwoCartoonView.swift in Sources */,
