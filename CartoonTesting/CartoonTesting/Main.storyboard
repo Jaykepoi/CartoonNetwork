@@ -16,6 +16,8 @@
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.55704988639999997" green="0.92076665089999998" blue="0.88181412839999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" red="0.55704988639999997" green="0.92076665089999998" blue="0.88181412839999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <connections>
                         <segue destination="hFc-Xd-1rg" kind="relationship" relationship="rootViewController" id="Rc7-jM-OQu"/>
