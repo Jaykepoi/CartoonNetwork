@@ -21,9 +21,9 @@ class apiTest {
             }
             
             do {
-                let rickAndMorty = try JSONDecoder().decode(apiCartoon.self, from: data)
+                let cartoonNetwork = try JSONDecoder().decode(apiCartoon.self, from: data)
                 DispatchQueue.main.async {
-                    completion(rickAndMorty)
+                    completion(cartoonNetwork)
                 }
             } catch let error {
                 print(error)
