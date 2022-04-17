@@ -43,7 +43,7 @@ class TwoCartoonView: UIViewController {
     }
     func refresh(character: apiCharacter){
         characterImage.apiImage(from: character.image)
-        Na.text = "Name: \(character.name)"
+        Na.text = "\(character.name)"
         Sp.text = "Species: \(character.species)"
         Ge.text = "Gender: \(character.gender)"
         St.text = "Status: \(character.status)"
